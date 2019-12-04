@@ -48,7 +48,6 @@ h2 {
   color: #000;
   margin: 0;
   border-bottom: 2px solid black;
-  border-width: 25%;
 }
 
 .hope {
@@ -142,7 +141,6 @@ header h2 {
   left: 0;
   width: 100%;
   border-bottom: 2px solid black;
-  border-width: 25%;
 }
 
 section {
@@ -157,8 +155,62 @@ section {
   justify-content: center;
 }
 
+main {
+  list-style-type: none;
+  text-align: center;
+  flex-direction: row;
+  justify-content: center;
+  display: flex;
+  margin: 2em;
+  margin-top: 0;
+}
+
 nav a {
   padding: .8rem;
+}
+
+main div {
+    flex-direction: column;
+    display: flex;
+    margin: 0;
+    padding: 1em;
+    text-align: left;
+    width: 25%;
+    justify-content: space-between;
+}
+
+main img {
+  display: block;
+  width: 100%;
+  width: 100px;
+  margin: 0 auto 1.5rem;
+}
+
+h3 {
+  font-style: normal;
+  margin: 0;
+}
+
+p {
+  display: inline-block;
+  margin: 0;
+  flex-grow: 1;
+  margin-bottom: 1em;
+}
+
+.card1 {
+  background-color: #e2e2e2;
+  border-right: 2px solid #333;
+}
+
+.card2 {
+  background-color: #ccc;
+  border-right: 2px solid #333;
+}
+
+.card3 {
+  background-color: #aaa;
+  border-right: 2px solid #333;
 }
 
 @media only screen and (min-width: 25em) {
