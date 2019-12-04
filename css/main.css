@@ -51,7 +51,6 @@ h2 {
   border-width: 25%;
 }
 
-
 .hope {
   text-align: center;
   flex-direction: row;
@@ -160,4 +159,20 @@ section {
 
 nav a {
   padding: .8rem;
+}
+
+@media only screen and (min-width: 25em) {
+
+}
+
+@media only screen and (min-width: 38em) {
+
+}
+
+@media only screen and (min-width: 60em) {
+
+}
+
+@media only screen and (min-width: 90em) {
+
 }
