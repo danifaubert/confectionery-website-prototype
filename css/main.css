@@ -10,6 +10,7 @@ html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
   box-sizing: border-box;
+  background-color: #c79f63;
 }
 
 *, *::before, *::after {
@@ -149,6 +150,7 @@ section {
 }
 
 main {
+  background-color: #c79f63;
   list-style-type: none;
   text-align: center;
   flex-direction: row;
