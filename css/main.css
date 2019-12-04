@@ -1,0 +1,163 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+.img-flex {
+  display: block;
+  width: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  background-color: #c79f63;
+  margin: 0;
+  padding-bottom: 1rem;
+}
+
+h1 {
+  padding: 0;
+  font-size: 3rem;
+  font-family: "Sigmar One", cursive;
+  text-align: center;
+  color: #000;
+  margin: 0;
+}
+
+h2 {
+  padding: 0;
+  font-size: 2rem;
+  font-family: "Sigmar One", cursive;
+  text-align: center;
+  color: #000;
+  margin: 0;
+  border-bottom: 2px solid black;
+  border-width: 25%;
+}
+
+
+.hope {
+  text-align: center;
+  flex-direction: row;
+  align-items: center;
+}
+
+nav ol {
+  display: flex;
+  list-style-type: none;
+  padding-top: 3rem;
+  padding-left: 0;
+  padding-right: .5rem;
+  margin: 0;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+li {
+  text-align: center;
+  width: 50%;
+  background-color: #c79f63;
+  color: #fff;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+  flex-direction: column;
+  font-weight: normal;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+.current {
+  color: #000;
+  background-color: #b08d58;
+}
+
+.current:hover {
+  background-color: #ff00d9;
+  color: #fff;
+}
+
+.logo {
+  width: 100%;
+  width: 25%;
+  float: left;
+  margin: .5rem;
+}
+
+a {
+  display: inline-block;
+  padding: .3em;
+  padding-left: .45em;
+  padding-right: .65em;
+  background-color: #b08d58;
+  font-family: Georgia, sans-serif;
+  font-size: 1.125rem;
+  border-radius: 4px;
+  color: #000;
+  text-decoration: none;
+}
+
+.chocolate:hover {
+  background-color: #80490f;
+  color: #fff;
+}
+
+.vanilla:hover {
+  background-color: #ede9d3;
+  color: #80490f;
+}
+
+.caramel:hover {
+  background-color: #ebad42;
+  color: #ede9d3;
+}
+
+header h1 {
+  position: absolute;
+  bottom: 17rem;
+  left: 0;
+  width: 100%;
+}
+
+header h2 {
+  position: absolute;
+  bottom: 15.5rem;
+  left: 0;
+  width: 100%;
+  border-bottom: 2px solid black;
+  border-width: 25%;
+}
+
+section {
+  position: relative;
+  background-color: #c79f63;
+}
+
+.logo {
+  width: 25%;
+  display: inline;
+  align-items: center;
+  justify-content: center;
+}
+
+nav a {
+  padding: .8rem;
+}
